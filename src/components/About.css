@@ -1,0 +1,203 @@
+/* About.css */
+
+.container-tfr {
+  max-width: 800px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add padding around the content */
+  background-color: #fff; /* Background color for the container */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for the floating effect */
+  margin-bottom: 500px;
+}
+
+.section-pen h2 {
+  font-family: 'semibold'; /* Font family for the heading */
+  font-size: 36px; /* Font size for the heading */
+  color: #1e1515; /* Text color for the heading */
+  margin-bottom: 20px; /* Add some space below the heading */
+  margin-left: 280px;
+  content: "";
+  
+}
+
+.section-pen h2::after {
+    content: "";
+    position: absolute;
+    bottom: -5px; /* Adjust this value to move the underline up or down */
+    left: 0;
+    width: 38%;
+    height: 2px; /* Height of the underline */
+    background-color: #0077b6; /* Color of the underline */
+  }
+
+.row-7l7 {
+  display: flex; /* Use flexbox to align columns */
+}
+
+.col-89n {
+  flex: 1; /* Each column takes up equal space */
+  padding: 0 10px; /* Add padding between columns */
+}
+
+.col-89n p {
+  font-family: 'medium'; /* Font family for paragraphs */
+  font-size: 16px; /* Font size for paragraphs */
+  color: #1e1515; /* Text color for paragraphs */
+  line-height: 1.5; /* Line height for paragraphs */
+  margin-bottom: 15px; /* Add some space below paragraphs */
+}
+
+.col-89n ul {
+  list-style-type: none; /* Remove default bullet points */
+  padding-left: 0; /* Remove default left padding */
+}
+
+.col-89n ul li {
+  position: relative; /* Position list items relatively */
+  padding-left: 20px; /* Add space for custom bullet icon */
+  margin-bottom: 10px; /* Add some space between list items */
+}
+
+.col-89n ul li:before {
+  content: ''; /* Empty content */
+  position: absolute; /* Position bullet icon absolutely */
+  left: 0; /* Position at the start of the list item */
+  top: 50%; /* Align vertically */
+  transform: translateY(-50%); /* Adjust vertical alignment */
+  width: 10px; /* Width of the bullet icon */
+  height: 10px; /* Height of the bullet icon */
+  background-color: #1e1515; /* Color of the bullet icon */
+  border-radius: 50%; /* Shape the bullet icon into a circle */
+}
+
+.pt-6ri {
+  padding-top: 50px; /* Add additional padding to the top of the column */
+}
+
+
+:root { 
+    --neutral-30: #e9e9e9; 
+    --neutral-80: #363636; 
+    --secondary-02: #00dfc2; 
+    --subtitle-REG-font-family: "SourceSans Pro-Regular",Helvetica; 
+    --subtitle-REG-font-size: 17px; 
+    --subtitle-REG-font-style: normal; 
+    --subtitle-REG-font-weight: 400; 
+    --subtitle-REG-letter-spacing: -.17px; 
+    --subtitle-REG-line-height: 140.0%; 
+} 
+
+.frame-olb  { 
+    background-color: var(--neutral-80); 
+    border-radius: 26px; 
+    flex-direction: column; 
+    align-items: flex-start; 
+    gap: 10px; 
+    padding: 41px 66px; 
+    display: inline-flex; 
+    margin-left: 180px;
+    position: absolute; 
+    top: 0; 
+    margin-top: 570px;
+    left: 0;
+} 
+
+.frame-dn8  { 
+    flex: none; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 66px; 
+    display: inline-flex; 
+    position: relative;
+} 
+
+img { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    font-size: 100%; 
+    font: inherit; 
+    vertical-align: baseline;
+} 
+
+.link-5o9  { 
+    width: 45px; 
+    height: 45px; 
+    position: absolute; 
+    top: 41px; 
+    left: 1071px;
+} 
+
+.ele-ykc  { 
+    object-fit: cover; 
+    width: 299px; 
+    height: 299px; 
+    position: relative;
+} 
+
+.frame-etj  { 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 16px; 
+    width: 696px; 
+    display: flex; 
+    position: relative;
+} 
+
+.frame-44w  { 
+    flex-direction: column; 
+    flex: none; 
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 8px; 
+    width: 685px; 
+    display: flex; 
+    position: relative;
+} 
+
+.wrapper-n8h  { 
+    color: var(--secondary-02); 
+    letter-spacing: -.2px; 
+    width: 685px; 
+    font-family: Source Sans Pro,Helvetica; 
+    font-size: 20px; 
+    font-weight: 400; 
+    line-height: 28px; 
+    position: relative;
+} 
+
+p { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    font-size: 100%; 
+    font: inherit; 
+    vertical-align: baseline;
+} 
+
+.wrapper-5ef  { 
+    color: #f6f7f8; 
+    font-family: var(--subtitle-REG-font-family); 
+    font-size: var(--subtitle-REG-font-size); 
+    font-style: var(--subtitle-REG-font-style); 
+    font-weight: var(--subtitle-REG-font-weight); 
+    letter-spacing: var(--subtitle-REG-letter-spacing); 
+    line-height: var(--subtitle-REG-line-height); 
+    width: 685px; 
+    position: relative;
+} 
+
+.wrapper-7ot  { 
+    color: var(--neutral-30); 
+    letter-spacing: -.53px; 
+    width: 191px; 
+    margin-top: -1px; 
+    font-family: Source Sans Pro,Helvetica; 
+    font-size: 35px; 
+    font-weight: 700; 
+    line-height: 49px; 
+    position: relative;
+} 
+
+

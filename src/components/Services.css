@@ -1,0 +1,422 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('D:/Users/udayk/OneDrive/Desktop/2cbd22c6f715077cb3e49ff0bac9a6c6.gif'); /* Replace 'path/to/your/gif.gif' with the actual path to your GIF */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  h1 {
+    font-size: 48px;
+    font-weight: 800;
+    padding-bottom: 10px;
+    background-color: red; /* Solid background color */
+    background: -webkit-linear-gradient(45deg, #09009f, red 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .h3-header {
+    font-size: 36px;
+    /* font-weight: 700; */
+    font-weight: bolder;
+  
+    margin-left: 670px; /* Move text from left to right */
+    color: #333; /* Dark gray color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background: -webkit-linear-gradient(45deg, #0077b6, #00b4d8); /* Gradient background */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left; /* Align text to the left */
+    text-transform: uppercase;
+    position: relative;
+    color: #012970;
+  }
+  
+  .h3-header2 {
+    font-size: 36px;
+    font-weight: bolder;
+    margin-left: 670px;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    background: -webkit-linear-gradient(45deg, #0077b6, #00b4d8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: right;
+    text-transform: uppercase;
+    position: relative;
+    color: #012970;
+    margin-left: 10px;
+    display: inline-block; /* Make it inline-block to contain the pseudo-element */
+  }
+  
+  .h3-header2::after {
+    content: "";
+    position: absolute;
+    bottom: -5px; /* Adjust this value to move the underline up or down */
+    left: 0;
+    width: 100%;
+    height: 2px; /* Height of the underline */
+    background-color: #0077b6; /* Color of the underline */
+  }
+  
+.p-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    margin-top: 20px;
+  }
+  .p-text2 {
+    font-family: 'Open Sans', sans-serif;
+    
+  }
+  .service-boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .service-box {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-box img {
+    width: 100%;
+    border-radius: var(--bs-border-radius);
+    margin-bottom: 15px;
+  }
+  
+  .service-box h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .service-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .service-box p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+
+  h2 {
+    font-size: 36px;
+    /* font-weight: 700; */
+    font-weight: bolder;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    margin-left: 500px; /* Move text from left to right */
+    color: #333; /* Dark gray color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background: -webkit-linear-gradient(45deg, #0077b6, #00b4d8); /* Gradient background */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left; /* Align text to the left */
+    text-transform: uppercase;
+    position: relative;
+    color: #012970;
+  }
+  
+  
+  
+  
+  .home-text {
+    font-size: 1.2rem;
+    text-align: center;
+    max-width: 800px;
+    line-height: 1.5;
+    font-weight: bold; /* Making the text bold */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Shining effect */
+  }
+  /* Add this CSS to your existing HomeStyles.css file */
+  
+  .benefits-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .benefit-item {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    margin-bottom: 40px;
+  }
+  
+  .benefit-icon {
+    margin-right: 20px;
+    font-size: 36px;
+    color: #007BFF; /* Blue color for icons */
+    flex-shrink: 0; /* Prevent icon from shrinking */
+    align-self: flex-start; /* Align icon to the top */
+  }
+  
+  .benefit-content {
+    flex: 1;
+  }
+  
+  .benefit-heading {
+    font-size: 20px;
+    font-weight: 800;
+    padding-bottom: 10px;
+    background-color: black; /* Solid background color */
+    background: -webkit-linear-gradient(45deg, #09009f, black 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .benefit-text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666; /* Medium color for text */
+  }
+  
+  
+  .fa-check-circle {
+    margin-right: 10px;
+    color: #28a745;
+  }
+  .get-started-button {
+    display: block;
+    margin: 40px auto; /* This centers the button horizontally */
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff; /* Primary color */
+    border: 2px solid #007bff; /* Border color */
+    border-radius: 50px; /* Fully rounded border */
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  
+    /* Hover effect */
+    &:hover {
+      background-color: #0056b3; /* Darker shade of primary color */
+      border-color: #0056b3; /* Darker shade of border color */
+    }
+  }
+  /* Footer */
+  .footer {
+    background-color: lightblue;
+    padding: 20px 0;
+    
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    margin-bottom: 20px;
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 10px;
+  }
+  
+  .img-bar {
+    background-color: lightblue;
+    padding: 20px 0;
+    background-image: url('D:/Users/udayk/Downloads/Logo_Of_JobBoost_Solutions_processed.jpg');
+    /* Adjust background image properties */
+    background-size: contain; /* Fit the image within the box */
+    background-position: center; /* Center the image within the box */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    width: 150px; /* Set width of the box */
+    height: 100px;
+    margin-left: 30px;
+}
+
+.footer-social-icons {
+    display: flex;
+}
+
+.footer-social-icons a {
+    margin-left: 250px; /* Adjust spacing between icons */
+    font-size: 20px;
+    color: #333;
+}
+  .footer-logo {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto; /* Center the image */
+  }
+  .footer-info p {
+    margin-bottom: 5px;
+  }
+  
+  .footer-info address {
+    font-style: normal;
+    margin-right: 100px;
+  }
+  
+  .footer-copyright {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+  }
+  
+
+  
+  .related-services {
+    margin-top: 30px;
+  }
+  /* Add this CSS to your existing HomeStyles.css file */
+  
+  /* Global Styles */
+  /* Global Styles */
+  /* Global Styles */
+  :root {
+    /* Colors */
+    --primary-color: #0d6efd;
+    --secondary-color: #6c757d;
+    --success-color: #198754;
+    --info-color: #0dcaf0;
+    --warning-color: #ffc107;
+    --danger-color: #dc3545;
+    --light-color: #f8f9fa;
+    --dark-color: #212529;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    
+    /* Font Family */
+    --font-sans-serif: 'Open Sans', sans-serif;
+    
+    /* Body */
+    --body-font-family: var(--font-sans-serif);
+    --body-font-size: 16px;
+    --body-font-weight: 400;
+    --body-line-height: 1.5;
+    --body-color: #444;
+    --body-bg-color: #ffffff;
+  }
+  /* Contact Section */
+  .contact-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px;
+  }
+  
+  .contact-details{
+    flex: 1;
+    padding: 20px;
+    padding-bottom: 10px;
+    border-radius: 120px;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form-container {
+    flex: 1;
+    padding: 100px;
+    border-radius: 90px;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-details {
+    margin-right: 20px;
+    background-color: var(--light-color);
+  }
+  
+  .contact-form-container {
+    background-color: var(--light-color);
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 150px;
+   
+  }
+ .style-eCw7S {  
+    border:0;  
+     width: 60%;  
+     margin-left: 20px;
+     height: 290px;  
+ }  
+  .contact-item svg {
+    margin-right: 10px;
+    font-size: 24px;
+    color: var(--primary-color);
+  }
+  
+  .contact-item strong {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .contact-item a {
+    color: var(--dark-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-item a:hover {
+    color: var(--primary-color);
+  }
+  
+  .contact-form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form-container input,
+  .contact-form-container textarea,
+  .contact-form-container button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .contact-form-container button {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contact-form-container button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .service-icon {
+    color: #47b2e4; /* Icon color */
+    font-size: 36px; /* Icon size */
+    margin-bottom: 10px; /* Spacing between icon and title */
+  }
+  
+  .service-title {
+    font-weight: 500; /* Bold title */
+    color: #012970; /* Title color */
+    margin-top: 0; /* Remove default margin */
+    margin-bottom: .5rem; /* Add margin at the bottom */
+    display: flex; /* Make title inline with icon */
+    align-items: center; /* Center align items */
+  }
+  
+  .service-title::before {
+    content: ""; /* Add a separator */
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #47b2e4; /* Separator color */
+    margin-right: 15px; /* Spacing between icon and separator */
+  }
+  

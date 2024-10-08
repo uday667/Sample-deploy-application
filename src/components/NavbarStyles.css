@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+    box-sizing: border-box;
+    font-family: "Titillium Web", sans-serif;
+}
+
+:root {
+    --mainColor: #29335c;
+    --mainColorLight: #5767aa;
+    --secondaryColor: #db2b39;
+    --textColor: #eee;
+}
+
+header {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2rem;
+    background-color: var(--mainColor);
+    color: var(--textColor);
+    /* Replace 'path/to/your/gif.gif' with the actual path to your GIF */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@keyframes shine {
+    0% { background-color: var(--mainColorLight); }
+    50% { background-color: var(--secondaryColor); }
+    100% { background-color: var(--mainColorLight); }
+}
+
+nav a {
+    margin: 0 1rem;
+    color: var(--textColor);
+    text-decoration: none;
+    border-radius: 50%;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    color: white;
+    animation: shine 1.5s infinite;
+}
+
+
+header .nav-btn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: -50%;
+    color: var(--textColor);
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
+}
+
+header div,
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container {
+    padding: 20px 0;
+    background-image: url('D:/Users/udayk/Downloads/Logo_Of_JobBoost_Solutions_processed.jpg');
+    /* Adjust background image properties */
+    background-size: contain; /* Fit the image within the box */
+    background-position: center; /* Center the image within the box */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    width: 150px; /* Set initial width of the box */
+    height: auto;
+    margin-left: 30px;
+    transition: width 0.5s, height 0.5s, margin-left 0.5s; /* Add transition effect */
+}
+
+/* Existing styles */
+
+@media (max-width: 768px) {
+    /* Mobile and tablet styles */
+    /* Existing styles for mobile and tablet */
+
+    .table-container {
+        margin-top: 20px;
+        animation: slideDown 0.5s ease;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    tbody tr {
+        background-color: var(--mainColorLight);
+    }
+
+    tbody tr:nth-child(odd) {
+        background-color: var(--secondaryColor);
+    }
+
+    td {
+        padding: 10px;
+        text-align: center;
+    }
+
+    td a {
+        color: var(--textColor);
+        text-decoration: none;
+        font-weight: bold;
+        display: block;
+    }
+
+    td a:hover {
+        color: white;
+    }
+
+    @keyframes slideDown {
+        0% { opacity: 0; transform: translateY(-20px); }
+        100% { opacity: 1; transform: translateY(0); }
+    }
+}

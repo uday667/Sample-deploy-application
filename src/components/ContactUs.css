@@ -1,0 +1,215 @@
+
+  /* Footer */
+  .footer {
+    background-color: lightblue;
+    padding: 20px 0;
+    
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    margin-bottom: 20px;
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 10px;
+  }
+  
+  .img-bar {
+    background-color: lightblue;
+    padding: 20px 0;
+    background-image: url('D:/Users/udayk/Downloads/Logo_Of_JobBoost_Solutions_processed.jpg');
+    /* Adjust background image properties */
+    background-size: contain; /* Fit the image within the box */
+    background-position: center; /* Center the image within the box */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    width: 150px; /* Set width of the box */
+    height: 100px;
+    margin-left: 30px;
+}
+
+.footer-social-icons {
+    display: flex;
+}
+
+.footer-social-icons a {
+    margin-left: 250px; /* Adjust spacing between icons */
+    font-size: 20px;
+    color: #333;
+}
+  .footer-logo {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto; /* Center the image */
+  }
+  .footer-info p {
+    margin-bottom: 5px;
+  }
+  
+  .footer-info address {
+    font-style: normal;
+    margin-right: 100px;
+  }
+  
+  .footer-copyright {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+  }
+  
+
+  
+  .related-services {
+    margin-top: 30px;
+  }
+  /* Add this CSS to your existing HomeStyles.css file */
+  
+  /* Global Styles */
+  /* Global Styles */
+  /* Global Styles */
+  :root {
+    /* Colors */
+    --primary-color: #0d6efd;
+    --secondary-color: #6c757d;
+    --success-color: #198754;
+    --info-color: #0dcaf0;
+    --warning-color: #ffc107;
+    --danger-color: #dc3545;
+    --light-color: #f8f9fa;
+    --dark-color: #212529;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    
+    /* Font Family */
+    --font-sans-serif: 'Open Sans', sans-serif;
+    
+    /* Body */
+    --body-font-family: var(--font-sans-serif);
+    --body-font-size: 16px;
+    --body-font-weight: 400;
+    --body-line-height: 1.5;
+    --body-color: #444;
+    --body-bg-color: #ffffff;
+  }
+  /* Contact Section */
+  .contact-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px;
+  }
+  
+  .contact-details{
+    flex: 1;
+    padding: 20px;
+    padding-bottom: 10px;
+    border-radius: 120px;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form-container {
+    flex: 1;
+    padding: 100px;
+    border-radius: 90px;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-details {
+    margin-right: 20px;
+    background-color: var(--light-color);
+  }
+  
+  .contact-form-container {
+    background-color: var(--light-color);
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 150px;
+   
+  }
+ .style-eCw7S {  
+    border:0;  
+     width: 60%;  
+     margin-left: 20px;
+     height: 290px;  
+ }  
+  .contact-item svg {
+    margin-right: 10px;
+    font-size: 24px;
+    color: var(--primary-color);
+  }
+  
+  .contact-item strong {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .contact-item a {
+    color: var(--dark-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-item a:hover {
+    color: var(--primary-color);
+  }
+  
+  .contact-form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form-container input,
+  .contact-form-container textarea,
+  .contact-form-container button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .contact-form-container button {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contact-form-container button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .service-icon {
+    color: #47b2e4; /* Icon color */
+    font-size: 36px; /* Icon size */
+    margin-bottom: 10px; /* Spacing between icon and title */
+  }
+  
+  .service-title {
+    font-weight: 500; /* Bold title */
+    color: #012970; /* Title color */
+    margin-top: 0; /* Remove default margin */
+    margin-bottom: .5rem; /* Add margin at the bottom */
+    display: flex; /* Make title inline with icon */
+    align-items: center; /* Center align items */
+  }
+  
+  .service-title::before {
+    content: ""; /* Add a separator */
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #47b2e4; /* Separator color */
+    margin-right: 15px; /* Spacing between icon and separator */
+  }
+  

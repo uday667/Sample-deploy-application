@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 2px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+::-webkit-scrollbar-thumb {
+  background: #888;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* General Styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #444;
+}
+
+a {
+  color: #47b2e4;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #73c5eb;
+}
+
+/* Header Styles */
+#header {
+  transition: all .5s;
+  z-index: 997;
+}
+
+#header.header-scrolled, #header.header-inner-pages {
+  background: rgba(65, 95, 148, .9);
+}
+
+#header .logo {
+  font-size: 30px;
+  color: #fff;
+}
+
+/* Navbar Styles */
+.navbar {
+  padding: 0;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
   display: flex;
-  flex-direction: column;
+  list-style: none;
+}
+
+.navbar li {
+  position: relative;
+}
+
+.navbar a, .navbar a:focus {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  padding: 10px 0 10px 30px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* ... Add more styles for navbar, hero, sections, etc. ... */
