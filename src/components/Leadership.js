@@ -1,5 +1,5 @@
 import "./Leadership.css";
-import { useRef } from 'react';
+
 
 function Leadership() {
 
