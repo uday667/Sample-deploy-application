@@ -1,14 +1,6 @@
 import "./About.css";
-import { useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarkerAlt, faEnvelope, faPhoneAlt, faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
-import { CgAddR, CgCornerDoubleUpRight, CgTrending } from "react-icons/cg";
-import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
-import { GrYoutube } from 'react-icons/gr';
-import { DiAsterisk } from "react-icons/di";
-import { DiCodeigniter } from "react-icons/di";
-import { DiMeteor } from "react-icons/di";
-import { DiSwift } from "react-icons/di";   
 
 function About() {
   
@@ -78,7 +70,7 @@ function About() {
       <div className="contact-item">
         <FontAwesomeIcon icon={faCalendarAlt} />
         <strong>Booking:</strong><br />
-        <a href="#">Schedule online</a>
+        <a href="https://www.facebook.com">Schedule online</a>
       </div>
     </address>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.8629309126027!2d77.1474724109405!3d28.693746575529612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d07ee44de7683%3A0xa872986691779da0!2sDataoids%20Analytics%20LLP!5e0!3m2!1sen!2sin!4v1702995466517!5m2!1sen!2sin" id="style-eCw7S" class="style-eCw7S"></iframe>
