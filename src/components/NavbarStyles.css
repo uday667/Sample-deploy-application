@@ -71,7 +71,7 @@ nav {
 
 .logo-container {
     padding: 20px 0;
-    background-image: url('D:/Users/udayk/Downloads/Logo_Of_JobBoost_Solutions_processed.jpg');
+    background-image: url('/public/assets/Logo_Of_JobBoost_Solutions_processed.jpg');
     /* Adjust background image properties */
     background-size: contain; /* Fit the image within the box */
     background-position: center; /* Center the image within the box */

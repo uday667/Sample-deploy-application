@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: url('D:/Users/udayk/OneDrive/Desktop/2cbd22c6f715077cb3e49ff0bac9a6c6.gif'); /* Replace 'path/to/your/gif.gif' with the actual path to your GIF */
+  background-image: url('/public/assets/2cbd22c6f715077cb3e49ff0bac9a6c6.gif'); /* Replace 'path/to/your/gif.gif' with the actual path to your GIF */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -123,7 +123,7 @@ h2 {
   .img-bar {
     background-color: lightblue;
     padding: 20px 0;
-    background-image: url('D:/Users/udayk/Downloads/Logo_Of_JobBoost_Solutions_processed.jpg');
+    background-image: url('/public/assets/Logo_Of_JobBoost_Solutions_processed.jpg');
     /* Adjust background image properties */
     background-size: contain; /* Fit the image within the box */
     background-position: center; /* Center the image within the box */
