@@ -2,16 +2,6 @@ import "./Leadership.css";
 import { useRef } from 'react';
 
 function Leadership() {
-  const scrollRef = useRef(null);
-
-  const scrollToSection = () => {
-    if (scrollRef.current) {
-      window.scrollTo({
-        top: scrollRef.current.offsetTop,
-        behavior: 'smooth',
-      });
-    }
-  };
 
   const sectionStyle = {
     background: 'url(https://www.abcconsultants.in/wp-content/themes/abc/assets/img/blue-bg-img-sm.jpg)',

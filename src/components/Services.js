@@ -20,17 +20,6 @@ function Services() {
     }
   };
 
-  const scrollLeft = () => {
-    if (scrollRef.current) {
-      scrollRef.current.scrollLeft -= 350; // Adjust scroll amount as needed
-    }
-  };
-
-  const scrollRight = () => {
-    if (scrollRef.current) {
-      scrollRef.current.scrollLeft += 350; // Adjust scroll amount as needed
-    }
-  };
 
   return (
     <>
@@ -83,17 +72,17 @@ function Services() {
               <div className="contact-item">
                 <FontAwesomeIcon icon={faEnvelope} />
                 <strong>Email:</strong><br />
-                <a href="mailto:uday@gmail.com">contact@dataoids.com</a>
+                <a href="htpps://www.facebook.com">contact@dataoids.com</a>
               </div>
               <div className="contact-item">
                 <FontAwesomeIcon icon={faPhoneAlt} />
                 <strong>Call:</strong><br />
-                <a href="tel:+918130626763">+91 9391392188</a>
+                <a href="htpps://www.facebook.com">+91 9391392188</a>
               </div>
               <div className="contact-item">
                 <FontAwesomeIcon icon={faCalendarAlt} />
                 <strong>Booking:</strong><br />
-                <a href="">Schedule online</a>
+                <a href="htpps://www.facebook.com">Schedule online</a>
               </div>
             </address>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.8629309126027!2d77.1474724109405!3d28.693746575529612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d07ee44de7683%3A0xa872986691779da0!2sDataoids%20Analytics%20LLP!5e0!3m2!1sen!2sin!4v1702995466517!5m2!1sen!2sin" id="style-eCw7S" class="style-eCw7S" title="Video about accessibility"></iframe>
