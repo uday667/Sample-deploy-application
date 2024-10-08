@@ -31,7 +31,7 @@ function About() {
 </div>
 
 <div class="frame-olb">
-    <div class="frame-dn8"><img class="ele-ykc" src=""  />
+    <div class="frame-dn8"><img class="ele-ykc" src=""  alt="not" />
         <div class="frame-etj">
             <div class="frame-44w">
                 <div class="wrapper-7ot">Hari Royal</div>
@@ -44,7 +44,7 @@ function About() {
             for Fortune 500 technology companies. A hands-on people person, he is known for shaping and fostering enthusiastic
              and energetic work culture and building high-performance teams.</p>
         </div>
-    </div><img class="link-5o9" src="" />
+    </div><img class="link-5o9" src="" alt="not"/>
 </div>
 
 <h3 className="h3-header">Contact Us</h3>

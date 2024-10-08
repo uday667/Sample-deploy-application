@@ -106,7 +106,7 @@ function Leadership() {
         <div class="row-w5c f-9zv aos-nix">
             <div class="col-bvs">
                 <article class="box-r3j">
-                    <div class="properties-3ia"><img src="https://www.abcconsultants.in/wp-content/uploads/2023/07/clay-banks-b5S4FrJb7yQ-unsplash.jpg" />
+                    <div class="properties-3ia"><img src="https://www.abcconsultants.in/wp-content/uploads/2023/07/clay-banks-b5S4FrJb7yQ-unsplash.jpg" alt="not" />
                     </div>
                     <h5 class="properties-cj5">We know India best</h5>
                     <p class="sub-7es"></p>
@@ -114,7 +114,7 @@ function Leadership() {
             </div>
             <div class="col-bvs">
                 <article class="box-r3j">
-                    <div class="properties-3ia"><img src="https://www.abcconsultants.in/wp-content/uploads/2023/07/josh-calabrese-Ev1XqeVL2wI-unsplash.jpg" />
+                    <div class="properties-3ia"><img src="https://www.abcconsultants.in/wp-content/uploads/2023/07/josh-calabrese-Ev1XqeVL2wI-unsplash.jpg" alt="not" />
                     </div>
                     <h5 class="properties-cj5">We are agile</h5>
                     <p class="sub-7es"></p>
@@ -122,7 +122,7 @@ function Leadership() {
             </div>
             <div class="col-bvs">
                 <article class="box-r3j">
-                    <div class="properties-3ia"><img src="https://www.abcconsultants.in/wp-content/uploads/2023/07/alessandro-bianchi-_kdTyfnUFAc-unsplash.jpg" />
+                    <div class="properties-3ia"><img src="https://www.abcconsultants.in/wp-content/uploads/2023/07/alessandro-bianchi-_kdTyfnUFAc-unsplash.jpg" alt="not" />
                     </div>
                     <h5 class="properties-cj5">We exhibit an entrepreneurial spirit</h5>
                     <p class="sub-7es"></p>
@@ -130,7 +130,7 @@ function Leadership() {
             </div>
             <div class="col-bvs">
                 <article class="box-r3j">
-                    <div class="properties-3ia"><img src="https://www.abcconsultants.in/wp-content/uploads/2023/07/jessica-mangano-G3HHYVLOyso-unsplash.jpg" />
+                    <div class="properties-3ia"><img src="https://www.abcconsultants.in/wp-content/uploads/2023/07/jessica-mangano-G3HHYVLOyso-unsplash.jpg" alt="not" />
                     </div>
                     <h5 class="properties-cj5">We are empathetic </h5>
                     <p class="sub-7es"></p>
@@ -138,7 +138,7 @@ function Leadership() {
             </div>
             <div class="col-bvs">
                 <article class="box-r3j">
-                    <div class="properties-3ia"><img src="https://www.abcconsultants.in/wp-content/uploads/2023/07/cdd20-MYwtNqVjC7o-unsplash.jpg" />
+                    <div class="properties-3ia"><img src="https://www.abcconsultants.in/wp-content/uploads/2023/07/cdd20-MYwtNqVjC7o-unsplash.jpg" alt="not"/>
                     </div>
                     <h5 class="properties-cj5">We guarantee ethical conduct</h5>
                     <p class="sub-7es"></p>
@@ -146,7 +146,7 @@ function Leadership() {
             </div>
             <div class="col-bvs">
                 <article class="box-r3j">
-                    <div class="properties-3ia"><img src="https://www.abcconsultants.in/wp-content/uploads/2023/07/rob-wicks-wmTmWDuvQUg-unsplash.jpg" />
+                    <div class="properties-3ia"><img src="https://www.abcconsultants.in/wp-content/uploads/2023/07/rob-wicks-wmTmWDuvQUg-unsplash.jpg" alt="not" />
                     </div>
                     <h5 class="properties-cj5">You can trust us</h5>
                     <p class="sub-7es"></p>
